@@ -50,8 +50,6 @@ var options = {
 function success(pos) {
   var crd = pos.coords;
   
-  alert(crd);
-
   getWeather(crd.latitude, crd.longitude);
   
   console.log('More or less ' + crd.accuracy + ' meters.');
